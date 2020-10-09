@@ -31,7 +31,7 @@ data_pred = pd.DataFrame({'Id': [123, 124], 'Title': ['senior worker', 'core jav
 log_salary = model.predict(make_batch(data_pred))
 ```
 
-**Short description of the training process:**
+***Short description of the training process:***
 
 The data contains description of various vacancies avaliable in the UK. The data attributes used by the model are either text data or categoriacal. Additionally, the distribution of salaries is right-tailed which means that it is desirable to apply log transformation to make the data resemble normal distribution.
 
