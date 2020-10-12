@@ -42,9 +42,9 @@ Then, data is tokenized and word counter is created. The number of word occurenc
 
 ![](/images/wordcounts_dist.png)
 
-Then, all seldom words are deleted and each word is mapped to its index that depends on the number of occurences (from 0 and up).
+After this, all seldom words are deleted and each word is mapped to its index that depends on the number of occurences (from 0 and up).
 
-We apply three different models to data contained in Title, FullDescription and categorical attributes. Then, three resulting vectors are concatenated and fed to a dense layer followed by a dense layer with a single neuron. The architecture is as follows:
+We apply three different models to data contained in Title, FullDescription and categorical attributes. Next, three resulting vectors are concatenated and fed to a dense layer followed by a dense layer with a single neuron. The architecture is as follows:
 
 ![](/images/model.png)
 
